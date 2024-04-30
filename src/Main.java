@@ -2,12 +2,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 class mili {
     public static void main(String[] args) {
-        int ticketcost = 13676;
+        int ticketCost = 13676;
         int bonus = 20;
 
-        int bonusMile = ticketcost / bonus;
+        int bonusMile = ticketCost / bonus;
 
-        System.out.println(bonusMile);
+        System.out.println("Вам начислено миль: " + bonusMile);
 
     }
 }
